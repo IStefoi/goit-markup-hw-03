@@ -1,0 +1,325 @@
+:root {
+  --link-color-2: #212121;
+  --color-wite: #fff;
+  --link-color: #2196f3;
+  --foot-color: #2f303a;
+  --adress-color: #757575;
+  --foot-sdress-color: #ffffff99;
+  --text-font-famyli: "Roboto", sans-serif;
+}
+
+.global-body {
+  background-color: #fff;
+  font-family: var(--text-font-famyli);
+  width: 1600px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+
+}
+
+/* Main navigation  */
+.web-class {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding-left: 215px;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Website link */
+.weblink {
+  color: #000;
+  font-family: var(--text-font-famyli);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.weblink span {
+  color: #2196f3;
+}
+
+/* Link navigation */
+.link-navigation {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 30px;
+}
+
+.navigation-link a:link {
+  color: var(--link-color-2);
+  font-family: var(--text-font-famyli);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.navigation-link a:hover {
+  color: var(--link-color);
+}
+
+.navigation-link a:focus {
+  color: red;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  gap: 30px;
+}
+
+.contact a {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.global-haeder .contact :link:hover {
+  color: var(--link-color);
+}
+
+/* Titel and button section. */
+
+.efective-solution {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+.tittel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.tittel-section {
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 136.364%;
+  /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  width: 600px;
+}
+
+/* Buton Service */
+.button-service {
+  color: var(--link-color-2);
+  background-color: var(--link-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: 187.5%;
+  border-radius: 4px;
+  border: 0;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.button-service:hover {
+  color: var(--color-wite);
+}
+
+/* About details */
+.about-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+
+.details {
+  gap: 30px;
+  display: flex;
+  margin: 0;
+  padding-top: 107px;
+}
+
+.details h3 {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 0.42px;
+}
+
+.details p {
+  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+/* About What we do */
+
+.about-images {
+  display: flex;
+  justify-content: center;
+}
+
+
+.what-we-do h2 {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.what-we-do li {
+  display: flex;
+  gap: 30px;
+}
+
+/* Our Team */
+.about-our-team {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background: #F5F4FA;
+  width: 1600px;
+  height: 648px;
+
+}
+
+.our-team {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  display: block;
+  margin: 0;
+}
+
+.our-team h2 {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.our-team ul {
+  display: flex;
+
+}
+
+/* Footer */
+.contacts-footer {
+  display: block;
+  padding-left: 215px;
+  height: 251px;
+  background: #2f303a;
+  justify-content: first baseline;
+
+}
+
+.contacts-footer .weblink-footer {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.weblink-footer span {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.contacts-footer .address {
+  color: var(--color-wite);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+
+}
+
+.contacts-footer .contact-ends {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Portofoliu butons */
+
+.buttons {
+  color: var(--link-color-2);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.5%;
+  letter-spacing: 0.48px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.buttons :hover,
+.buttons :focus {
+  background-color: var(--link-color);
+  color: var(--color-wite);
+
+}
