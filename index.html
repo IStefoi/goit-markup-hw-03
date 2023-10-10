@@ -15,41 +15,51 @@
 
 <body class="global-body">
   <!-- GlobalHeader -->
-  <header>
+  <header class="global-haeder">
     <!-- /* Website link */  -->
     <div class="web-class container">
-      <a href="#" class="weblink"><span>Web</span>Studio</a>
+      <a class="weblink" href="index.html">
+        <h2 class="logo">
+          Web<span>Studio</span>
+        </h2>
+      </a>
       <!-- Main navigation -->
-      <nav>
+      <nav class="main-navigation">
         <ul class="link-navigation">
           <li>
-            <a class="navigation-link current" href="index.html">Studio</a>
+            <a class="weblink current" href="index.html">Studio</a>
           </li>
-          <li><a class="navigation-link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="navigation-link" href="#">Contacts</a></li>
+          <li><a class="weblink" href="portfolio.html">Portfolio</a></li>
+          <li><a class="weblink" href="#">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contact -->
       <div class="contact">
-        <a href="email:info@devstudio.com">info@devstudio.com</a>
-        <a href="+1212-772-4150">+1212-772-4150</a>
+        <ul class="link-navigation">
+          <li class="list-item-class">
+            <a class="contact-list" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="list-item-class">
+            <a class="contact-list" href="+1-212-772-4150">+1-212-772-4150</a>
+          </li>
+        </ul>
       </div>
     </div>
   </header>
   <!-- Titel and button section. -->
   <main>
-    <section class="efective-solution">
-      <div class="tittel">
-        <h1 class="tittel-section">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button" class="button-service">Request our service</button>
-      </div>
+    <section class="efective-solution-section">
+      <section class="efective-solution">
+        <h1 class="efective-solution-text">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <button class="button-service" type="button">Request our service</button>
+      </section>
     </section>
     <!-- About details. -->
     <div class="about-details">
       <div class="container">
         <ul class="details">
           <li>
-            <h3>ATTENTION TO DETAILS</h3>
+            <h3><b>ATTENTION TO DETAILS</b></h3>
             <p> We go into all the details and processes of your business to develop
               a customized solution.</p>
           </li>
@@ -72,70 +82,76 @@
       </div>
     </div>
     <!-- What we do -->
-    <section class="about-images">
-      <div class="what-we-do container">
+    <section class="section">
+      <section class="what-we-do container">
         <h2>What we do</h2>
-        <ul>
-          <li>
-            <img src="./images/img3.jpg" alt="work on computer" width="370" />
-            <img src="./images/img1.jpg" alt="Make a telephone interface" width="370" />
-            <img src="./images/img2.jpg" alt="Choose a color" width="370" />
-          </li>
-        </ul>
-      </div>
+        <div class="what-we-do-images">
+          <img src="./images/img3.jpg" alt="work on computer" width="370" />
+          <img src="./images/img1.jpg" alt="Make a telephone interface" width="370" />
+          <img src="./images/img2.jpg" alt="Choose a color" width="370" />
+        </div>
+      </section>
     </section>
     <!-- Our Team -->
-    <section class="about-our-team">
-      <div class="our-team container">
-        <h2 class="about-us-titel">Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/img4.jpg" alt="img4" width="270" />
-            <div>
+    <div class="about-our-team">
+      <section class="section">
+        <div class="container">
+          <h2 class="about-us-titel">Our Team</h2>
+          <div class="our-team-section">
+            <div class="our-team-cards">
+              <img src="./images/img4.jpg" alt="product-designer-portrait" width="270" />
               <h3>Christopher Walker</h3>
               <p>Product Designer</p>
             </div>
-          </li>
-          <li>
-            <img src="./images/img5.jpg" alt="img5" width="270">
-            <div>
+            <div class="our-team-cards">
+              <img src="./images/img5.jpg" alt="img5" width="270">
               <h3>Kylie Evans</h3>
               <p>Frontend Developer</p>
             </div>
-          </li>
-          <li>
-            <img src="./images/img6.jpg" alt="img6" width="270" />
-            <div>
+            <div class="our-team-cards">
+              <img src="./images/img6.jpg" alt="img6" width="270" />
               <h3>Ryan Harris</h3>
               <p>Marketing</p>
             </div>
-          </li>
-          <li>
-            <img src="./images/img7.jpg" alt="img7" width="270" />
-            <div>
+            <div class="our-team-cards">
+              <img src="./images/img7.jpg" alt="img7" width="270" />
               <h3>Tyler Moore</h3>
               <p>UI Designer</p>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <section class="footer-section">
+      <div class="footer-parent container">
+        <div class="footer-child">
+          <div class="footer-logo">
+            <a class="weblink" href="index.html">
+              <h2 class="logo">
+                Web<span>Studio</span>
+              </h2>
+            </a>
+          </div>
+          <address class="footer-contact">
+            <ul>
+              <li class="address">
+                <a href="https://www.google.com/maps/place/695+Park+Ave/data=!4m7!3m6!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!8m2!3d40.7688994!4d-73.9650256!16s%2Fg%2F11c250btd8!19sChIJj26D6OtYwokR66BKfE7EB6A?authuser=0&hl=en&rclk=1"
+                  target="_blank">695 Park Ave,NY 10065,USA</a>
+              </li>
+              <li class="contact-ends">
+                <a href="email:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="contact-ends">
+                <a href="tel:+1212-772-4150">+1212-772-4150</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
       </div>
     </section>
-  </main>
-  <footer class="contacts-footer">
-    <div class="container">
-      <a href="#" class="weblink-footer"><span>Web</span>Studio</a>
-      <address class="address">
-        <p>
-          <a href="https://www.google.com/maps/place/695+Park+Ave/data=!4m7!3m6!1s0x89c258ebe8836e8f:0xa007c44e7c4aa0eb!8m2!3d40.7688994!4d-73.9650256!16s%2Fg%2F11c250btd8!19sChIJj26D6OtYwokR66BKfE7EB6A?authuser=0&hl=en&rclk=1"
-            target="_blank">695 Park Ave,NY 10065,USA</a>
-        </p>
-        <div class="contact-ends">
-          <a href="email:info@devstudio.com">info@devstudio.com</a>
-          <br><br>
-          <a href="tel:+1212-772-4150">+1212-772-4150</a>
-        </div>
-      </address>
-    </div>
   </footer>
 </body>
 
